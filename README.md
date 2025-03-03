@@ -1,4 +1,4 @@
-# Monorepo: React + Vite + ShadCN (Frontend) & NestJS (Backend) using Turborepo
+# My Go-to Stack
 
 This monorepo is built using **Turborepo**, featuring a **React + Vite + ShadCN** frontend and a **NestJS** backend. It is structured for scalability, performance, and maintainability.
 
