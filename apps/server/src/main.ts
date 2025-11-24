@@ -8,6 +8,7 @@ import { NestExpressApplication } from "@nestjs/platform-express";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 import * as cookieParser from "cookie-parser";
 import helmet from "helmet";
+
 import { AppModule } from "./app.module";
 
 function initSwagger(app: INestApplication<any>) {
@@ -63,4 +64,5 @@ async function bootstrap() {
 
   await app.listen(process.env.PORT ?? 3000);
 }
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
 bootstrap();
