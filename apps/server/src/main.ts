@@ -1,3 +1,5 @@
+import "./instrument";
+
 import {
   INestApplication,
   ValidationPipe,
